@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.countdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: pulse 2s infinite alternate;
+	font-size: 2em;
+	color: #333;
+	
+}
+
+.countdown-label {
+    margin-right: 10px;
+	font-weight: bold;
+}
+
+.countdown-time {
+    transition: color 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
