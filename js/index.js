@@ -30,6 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const countdownInterval = setInterval(function() { 
         updateCountdown('LOVE', LOVEDate); 
         updateCountdown('MARRIAGE', MARRIAGEDate); 
-        updateCountdown('CERTIFICTE', CERTIFICTEDate); 
+        updateCountdown('CERTIFICTE',CERTIFICTEDate); 
     }, 1000);
 });
