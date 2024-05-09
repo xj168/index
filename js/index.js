@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // 倒计时目标时间，格式为YYYY-MM-DD HH:MM:SS
     const LOVEDate = new Date("2017-02-11 00:00:00").getTime();
     const MARRIAGEDate = new Date("2023-01-26 12:06:00").getTime();
-    const MARRIAGE_CERTIFICTEDate = new Date("2022-12-22 12:06:00").getTime();
+    const MARRIAGE_CERTIFICTEDate = new Date("2022-12-22 14:08:00").getTime();
 
     function updateCountdown(elementId, targetDate) {
         const now = new Date().getTime();
