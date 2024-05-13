@@ -2,23 +2,40 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+    overflow: hidden;
+    background: #fedde1;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* 将canvas置于背景 */
+}
+
+.countdown{
+    margin-top: 10rem;
+}
+
 .countdown-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 20px auto;
     width: fit-content;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     animation: pulse 2s infinite alternate;
-	font-size: 2em;
-	color: #333;
-	
+	font-size: 1rem;
+	color: #363636;
 }
 
 .countdown-label {
-    margin-right: 10px;
+    margin-right: 1rem;
 	font-weight: bold;
 }
 
